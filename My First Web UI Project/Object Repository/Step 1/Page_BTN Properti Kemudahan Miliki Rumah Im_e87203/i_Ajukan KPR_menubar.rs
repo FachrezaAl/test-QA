@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Ajukan KPR_menubar</name>
+   <tag></tag>
+   <elementGuidId>dc38eab3-d0eb-4f4a-b33c-a17929709718</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#menubar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@id='menubar']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Toggle navigation&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>73f985c3-f626-4ed7-98db-399848fe5830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-x-lg</value>
+      <webElementGuid>b904fe1d-4706-418f-b4eb-3deb5fe4e6cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menubar</value>
+      <webElementGuid>cd9ee63f-41f3-40f1-8ba8-a89fb8c4e066</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[1]/div[@id=&quot;menu_mobile&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center w-100&quot;]/button[@id=&quot;iconMenu&quot;]/i[@id=&quot;menubar&quot;]</value>
+      <webElementGuid>41858ae1-eb08-4353-9744-0611f370f2a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@id='menubar']</value>
+      <webElementGuid>d9a1e0d4-6515-4a8f-819d-dd7fd26f9904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='iconMenu']/i</value>
+      <webElementGuid>30abf9bb-c84e-4494-8c36-555c47aae8b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>460ca9f6-6e9a-4361-889c-450af76ff040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[@id = 'menubar']</value>
+      <webElementGuid>2af16095-034f-4b0c-8bfc-28954bd6c065</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
