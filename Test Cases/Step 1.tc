@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>new access on btnproperti</description>
-   <name>Login</name>
+   <name>Step 1</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
