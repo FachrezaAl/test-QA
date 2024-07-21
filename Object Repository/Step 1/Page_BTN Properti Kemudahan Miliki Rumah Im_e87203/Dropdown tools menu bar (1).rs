@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown tools menu bar (1)</name>
+   <tag></tag>
+   <elementGuidId>9a105893-88a4-466a-bd3a-d8bb17b56392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav_main']/ul[2]/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.dropdown</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#nav_main >> internal:text=&quot;ToolsHitung HargaHarga PasarSimulasi KPRKomparasi PropertiKonsultasi&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>9bb5f22b-9880-4c7a-8381-c9ebe068956d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-item dropdown</value>
+      <webElementGuid>27659208-c075-4abd-b995-a34edee63b60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ToolsHitung HargaHarga PasarSimulasi KPRKomparasi PropertiKonsultasi</value>
+      <webElementGuid>247ba154-5d65-42cc-b4af-7cf33040460b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav_main&quot;)/ul[@class=&quot;nav align-items-center nav-ipad-pt&quot;]/li[@class=&quot;nav-item dropdown&quot;]</value>
+      <webElementGuid>73b9e408-e23b-4d94-9bcf-3fec5a1e6939</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav_main']/ul[2]/li</value>
+      <webElementGuid>9660659e-8905-47cd-a8d0-10e583c0813f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>64d9b39c-23ca-4e4c-b9c3-0cf155ed48d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'ToolsHitung HargaHarga PasarSimulasi KPRKomparasi PropertiKonsultasi' or . = 'ToolsHitung HargaHarga PasarSimulasi KPRKomparasi PropertiKonsultasi')]</value>
+      <webElementGuid>30ecebe4-1e87-4a90-9fe1-535703d72e6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

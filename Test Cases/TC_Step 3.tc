@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Step 3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b371c0ee-2972-4c35-8f68-8c0343aa15a9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c3a719bd-ee30-491b-a420-4a02c37ccb22</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c3a719bd-ee30-491b-a420-4a02c37ccb22</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Penghasilan</value>
+      <variableId>64611e01-0389-40db-a09b-070bad37890e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3a719bd-ee30-491b-a420-4a02c37ccb22</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Pengeluaran</value>
+      <variableId>50b8c6fc-1642-49b2-89f9-410dc7c9feeb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3a719bd-ee30-491b-a420-4a02c37ccb22</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Jangka waktu</value>
+      <variableId>6454160b-df62-46c6-bb2c-2f9048145621</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c3a719bd-ee30-491b-a420-4a02c37ccb22</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Total </value>
+      <variableId>d53ab83c-ba1e-45b3-a231-8b668b646429</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02b06a22-1f16-40b2-91a5-0d3e207b3fac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64611e01-0389-40db-a09b-070bad37890e</id>
+      <masked>false</masked>
+      <name>Pemasukan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50b8c6fc-1642-49b2-89f9-410dc7c9feeb</id>
+      <masked>false</masked>
+      <name>Pengeluaran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6454160b-df62-46c6-bb2c-2f9048145621</id>
+      <masked>false</masked>
+      <name>Jangka_Waktu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d53ab83c-ba1e-45b3-a231-8b668b646429</id>
+      <masked>false</masked>
+      <name>Total</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>02b06a22-1f16-40b2-91a5-0d3e207b3fac</id>
+      <masked>false</masked>
+      <name>checked</name>
+   </variable>
+</TestCaseEntity>

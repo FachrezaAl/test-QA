@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Step 2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e299ab3-1b73-4a9f-af91-ac63f6eda0a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cf87d9f-0f0f-4a00-8edb-145d27cdc524</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.btnproperti.co.id/tools/hitung-harga-properti'</defaultValue>
+      <description></description>
+      <id>7cf87d9f-0f0f-4a00-8edb-145d27cdc524</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

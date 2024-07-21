@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.btnproperti.co.id/')
 
-WebUI.findWebElement(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/a_Tools'))
+WebUI.findWebElement(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/Dropdown tools menu bar (1)'))
 
-WebUI.click(findTestObject('Object Repository/Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/a_Tools'))
+WebUI.click(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/Dropdown tools menu bar (1)'))
 
-WebUI.findWebElement(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/a_Hitung Harga'))
+WebUI.findWebElement(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/Hitung Harga sub menu (1)'))
 
-WebUI.click(findTestObject('Object Repository/Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/a_Hitung Harga'))
+WebUI.click(findTestObject('Step 1/Page_BTN Properti Kemudahan Miliki Rumah Im_e87203/Hitung Harga sub menu (1)'))
 
 WebUI.findWebElement(findTestObject('Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Hitung Harga Properti Maksimal_floati_bf0ef7'))
 
@@ -49,9 +49,15 @@ WebUI.findWebElement(findTestObject('Step 1/Page_Hitung Harga Properti Maksimal 
 
 WebUI.click(findTestObject('Object Repository/Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/button_Hitung'))
 
-WebUI.click(findTestObject('Object Repository/Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/h3_Rp 36.000.000'))
+WebUI.findWebElements(findTestObject('Object Repository/Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/h3_Rp 36.000.000'), 
+    0)
 
-WebUI.rightClick(findTestObject('Object Repository/Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/div_Harga Properti Maksimal KamuRp 36.000.0_db86bc'))
+WebUI.findWebElements(findTestObject('Object Repository/Step 1/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/div_Harga Properti Maksimal KamuRp 36.000.0_db86bc'), 
+    0)
 
-WebUI.acceptAlert()
+WebUI.verifyMatch('Harga Properti', '(penghasilan - pengeluaran)*((Jangka Waktu*12)/3)', false)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.closeBrowser()
 
